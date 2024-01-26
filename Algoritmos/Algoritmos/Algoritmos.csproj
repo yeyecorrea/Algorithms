@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Algoritmos.EstructuraDeDatos\Algoritmos.EstructuraDeDatos.csproj" />
+  </ItemGroup>
+
 </Project>

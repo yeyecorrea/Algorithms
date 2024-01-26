@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Arrays\MultidimensionalArray\" />
     <Folder Include="Arrays\RotationOfArray\" />
-    <Folder Include="Arrays\ReverseArray\" />
     <Folder Include="Arrays\RearrangingAnArray\" />
     <Folder Include="Arrays\RangeQueriesArray\" />
     <Folder Include="LinkedLists\" />
