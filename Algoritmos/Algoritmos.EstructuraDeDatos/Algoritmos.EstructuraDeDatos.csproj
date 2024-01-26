@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Arrays\MultidimensionalArray\" />
+    <Folder Include="Arrays\RotationOfArray\" />
+    <Folder Include="Arrays\ReverseArray\" />
+    <Folder Include="Arrays\RearrangingAnArray\" />
+    <Folder Include="Arrays\RangeQueriesArray\" />
+    <Folder Include="LinkedLists\" />
+    <Folder Include="StringDataStructure\BinaryString\" />
+    <Folder Include="StringDataStructure\LexicoGraphicPattern\" />
+    <Folder Include="StringDataStructure\PatternSearching\" />
+    <Folder Include="StringDataStructure\Palindrome\" />
+    <Folder Include="StringDataStructure\ReverseAndRotationInAString\" />
+    <Folder Include="StringDataStructure\SubSequenceAndSubstring\" />
+  </ItemGroup>
+
+</Project>
