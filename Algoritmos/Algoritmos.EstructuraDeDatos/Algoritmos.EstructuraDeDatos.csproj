@@ -7,17 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Arrays\MultidimensionalArray\" />
-    <Folder Include="Arrays\RotationOfArray\" />
-    <Folder Include="Arrays\RearrangingAnArray\" />
-    <Folder Include="Arrays\RangeQueriesArray\" />
-    <Folder Include="LinkedLists\" />
-    <Folder Include="StringDataStructure\BinaryString\" />
-    <Folder Include="StringDataStructure\LexicoGraphicPattern\" />
-    <Folder Include="StringDataStructure\PatternSearching\" />
-    <Folder Include="StringDataStructure\Palindrome\" />
-    <Folder Include="StringDataStructure\ReverseAndRotationInAString\" />
-    <Folder Include="StringDataStructure\SubSequenceAndSubstring\" />
+    <Compile Remove="Arrays\MultidimensionalArray\**" />
+    <Compile Remove="Arrays\RangeQueriesArray\**" />
+    <Compile Remove="Arrays\RearrangingAnArray\**" />
+    <Compile Remove="Arrays\RotationOfArray\**" />
+    <Compile Remove="LinkedLists\**" />
+    <Compile Remove="StringDataStructure\**" />
+    <EmbeddedResource Remove="Arrays\MultidimensionalArray\**" />
+    <EmbeddedResource Remove="Arrays\RangeQueriesArray\**" />
+    <EmbeddedResource Remove="Arrays\RearrangingAnArray\**" />
+    <EmbeddedResource Remove="Arrays\RotationOfArray\**" />
+    <EmbeddedResource Remove="LinkedLists\**" />
+    <EmbeddedResource Remove="StringDataStructure\**" />
+    <None Remove="Arrays\MultidimensionalArray\**" />
+    <None Remove="Arrays\RangeQueriesArray\**" />
+    <None Remove="Arrays\RearrangingAnArray\**" />
+    <None Remove="Arrays\RotationOfArray\**" />
+    <None Remove="LinkedLists\**" />
+    <None Remove="StringDataStructure\**" />
   </ItemGroup>
 
 </Project>
